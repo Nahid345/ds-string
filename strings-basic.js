@@ -42,15 +42,36 @@ const  newStr = '  hello world   '
 //  console.log(newStr.trim());   // trim() - remove white space
 
 // searching
-console.log(str.lastIndexOf('e'))
-console.log(str.indexOf('r'));
+// console.log(str.lastIndexOf('e'))
+// console.log(str.indexOf('r'));
 
 // console.log(str.startsWith('I'));
 // console.log(str.endsWith('r'));
 // "I am a JavaScript Developer";
 
-console.log(str.substring(13,20))
-console.log(str.slice(2,5));
+// console.log(str.substring(13,20))
+// console.log(str.slice(2,5));
+
+// upercase & lowrcase
+
+str.toUpperCase();
+ str.toLowerCase();
+ //strings compare
+
+ const str1 = "apple";
+ const str2 = "apple";
+
+str1.localeCompare(str2)
+str.includes('am'); // includes mean -  have a word or letter in this line
+
+// spilting & joining strings
+(str.split('e'));
+const arr =["apple","banana"];
+console.log(arr.join(" and "));
+
+
+
+
 
 
 
