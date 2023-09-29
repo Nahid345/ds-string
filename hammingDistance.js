@@ -5,7 +5,7 @@
 
 function hammingDistance(x, y) {
     x = x.toString(2);
-    y = y.toString(2)
+    y = y.toString(2);
 
     if (x.length < y.length) {
 
